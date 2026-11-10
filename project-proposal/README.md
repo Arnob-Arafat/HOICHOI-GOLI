@@ -1,4 +1,3 @@
-# Project Proposal
 **HOICHOI** **GOLI** Code-Based University Escape Game ## Project Overview The project is a terminal-based, code-driven adventure game in which the player assumes the role of a first-year university student attempting to reach the Freshers while navigating a university environment. Unlike conventional movement-based games, the player writes and executes commands to control their character. They can also develop reusable functions through a restricted command system called the Lexicon. The primary objective is to collect tokens, avoid or survive encounters with senior students, and successfully reach the exit. ## Player Movement System The player can move using only four fundamental commands: Command Function shamne() Move forward pichone() Move backward upore() Move upward niche() Move downward
 
 Each command moves the character by one grid cell.
