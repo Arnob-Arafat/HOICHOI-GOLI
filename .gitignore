@@ -1,0 +1,74 @@
+
+# C++ compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.bin
+*.elf
+
+# Makefile
+Makefile
+
+# Build directory
+build/
+
+# Old executables in source directories
+maps/main
+
+# CPH
+.cph/
+
+# Executables without extensions (Linux/macOS)
+a.out
+
+# Debug files
+*.pdb
+*.ilk
+*.dSYM/
+
+
+# CPH (Competitive Programming Helper)
+.cph/
+cph/
+.cph-submit/
+*.cph
+
+# CPH generated test files
+input.txt
+output.txt
+*.in
+*.ans
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# CMake generated files
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+#vscode
+.vscode/
+vscode/

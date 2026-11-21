@@ -1,6 +1,10 @@
+#ifndef MAP_H
+#define MAP_H
+
 #include <iostream>
 #include <vector>
 #include "samplechar.cpp"
+#include "core/Brick.h"
 using namespace std;
 
 class Maps
@@ -38,3 +42,5 @@ class Maps
         }
     }
 };
+
+#endif

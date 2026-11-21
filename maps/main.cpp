@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void)
 {
-    Maps m(10);
+    Maps m(50);
 
     m.insert('2', 2, 3);
 
