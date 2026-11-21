@@ -1,31 +1,36 @@
 #include <iostream>
 #include <vector>
+#include "samplechar.cpp"
 using namespace std;
 
 class Maps
 {
+    private:
+    vector<vector <string>> map;
+
     public:
-    vector<vector <char>> map;
-    
     Maps(int len)
     {
-        for (int i = 0; i < len; i++)
-        {
-            vector<char> row;
-            for (int j = 0; j < len; j++)
-            {
-                row.push_back('.');
-            }
-            map.push_back(row);
-        }
+        map = vector<vector<string>>(len, vector<string>(len, "."));
     }
 
+
+    void insert(char name, int x, int y)
+    {
+        Sample s(255, 60, 60);
+        map[x][y] = s.getSample();
+    }
+
+    void remove(int x, int y)
+    {
+        map[x][y] = '.';
+    }
 
     void print()
     {
         for (vector v : map) 
         {
-            for (char c : v) 
+            for (string c : v) 
             {
                 cout << c << " ";
             }

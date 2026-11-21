@@ -6,6 +6,8 @@ using namespace std;
 int main(void)
 {
     Maps m(10);
-    m.print();
+
+    m.insert('2', 2, 3);
+
     m.print();
 }
